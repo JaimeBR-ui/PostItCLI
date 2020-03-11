@@ -28,5 +28,8 @@ elif length > 1 and sys.argv[1] == "show":
         # Ouput everything to terminal.
         read(None)
 
-elif length > 1 and sys.argv[1] == "wipe":
+elif length > 1 and sys.argv[1] == "clean":
     wipe()
+
+else:
+    print("Command entered is not valid.")

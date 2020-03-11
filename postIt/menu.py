@@ -19,4 +19,7 @@ def print_preview():
     "         Shows all the post it notes. Each can be displayed\n",
     "         individually with a delay if argument is given.\n",
     "\n",
+    "     post clean\n",
+    "         Removes all the stored notes.\n",
+    "\n",
     "")

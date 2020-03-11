@@ -3,7 +3,7 @@
 import csv, time
 import os.path
 
-filename = "notes.csv"
+filename = "data/notes.csv"
 
 def write(message):
     # Writes data into a file.
@@ -27,8 +27,11 @@ def read(message):
         with open(filename, newline='') as csvfile:
             spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
             for row in spamreader:
-                print(', '.join(row))
-                time.sleep(0.5)
+                message = ' '.join(row)
+
+                if message != "note":
+                    print(message)
+                    time.sleep(0.5)
     pass
 
 def wipe():
