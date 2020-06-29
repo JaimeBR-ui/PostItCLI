@@ -9,3 +9,7 @@
 
      post clean
          Removes all the stored notes.
+
+Here's a short preview:
+
+![]{https://raw.githubusercontent.com/JaimeBR-ui/PostItCLI/master/images/home.png}
